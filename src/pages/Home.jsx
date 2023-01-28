@@ -4,6 +4,7 @@ import { ProductContext } from '../context/ProductContext'
 import Product from '../components/Product'
 import Hero from '../components/Hero'
 import Categories from '../components/Categories'
+import Newsletter from '../components/Newsletter'
 
 const Home = () => {
 
@@ -34,6 +35,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <Newsletter />
     </div>
     )
 
