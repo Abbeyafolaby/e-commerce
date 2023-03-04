@@ -16,7 +16,7 @@ const Cart = () => {
       currency: 'NGN',
       payment_options: 'card,mobilemoney,ussd',
       customer: {
-        email: user.email,
+        email: "John doe",
         phone_number: '070********',
         name: 'John Doe',
       },
